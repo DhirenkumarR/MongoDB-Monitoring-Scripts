@@ -4,12 +4,6 @@ require('dotenv').config();
 const uri = process.env.DEV_DB;
 const client = new MongoClient(uri);
 
-// Ajay_Team -> No
-// Sandip_Team -> No
-// Haresh_Team -> No
-// IdentityData -> No
-// Import_Team -> No
-// Live_Practice_Business_Copy -> No
 
 let foundArr = [];
 async function checkSSN() {
